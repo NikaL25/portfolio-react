@@ -1,0 +1,180 @@
+.skills {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
+    gap: 0.5rem
+}
+
+ .tittle {
+    display: flex;
+    justify-content: center;
+
+}
+h2 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    margin-left: 30px;
+}
+.tittle h1 {
+   font-size: 3rem;
+   font-weight: bold; 
+}
+
+.skill {
+    text-align: center  ;
+    width: 400px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+    border-radius: 45px;
+    
+  
+}
+.html-logo{
+    transition: 1s ease;
+    width: 150px;
+    height: 150px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png") ;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.html-logo:hover{
+    -webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	transition: 1s ease;
+}
+.css-logo{
+    transition: 1s ease;
+    width: 150px;
+    height: 150px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png") ;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.css-logo:hover{
+    -webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	transition: 1s ease;
+}
+
+.js-logo{
+    transition: 1s ease;
+    width: 150px;
+    height: 150px;
+    background-image: url("https://i0.wp.com/theicom.org/wp-content/uploads/2016/03/js-logo.png?fit=500%2C500&ssl=1&w=640") ;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.js-logo:hover{
+    -webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	transition: 1s ease;
+}
+
+.sass-logo{
+    transition: 1s ease;
+    width: 150px;
+    height: 150px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sass_Logo_Color.svg/1280px-Sass_Logo_Color.svg.png") ;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.sass-logo:hover{
+    -webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	transition: 1s ease;
+}
+
+.bootstrap-logo{
+    transition: 1s ease;
+    width: 150px;
+    height: 150px;
+    background-image: url("https://seeklogo.com/images/B/bootstrap-logo-3C30FB2A16-seeklogo.com.png") ;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.bootstrap-logo:hover{
+    -webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	transition: 1s ease;
+}
+
+.react-logo{
+    transition: 1s ease;
+    width: 150px;
+    height: 150px;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png") ;
+    background-size: contain;
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.react-logo:hover{
+    -webkit-transform: scale(0.8);
+	-ms-transform: scale(0.8);
+	transform: scale(0.8);
+	transition: 1s ease;
+}
+.skill p{
+    
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: rgb(3, 33, 59);
+}
+.skill p span {
+     text-align: center;
+    display: block;
+    color: rgb(67, 70, 71);
+
+}
+
+.myProgress {
+    margin-top: 10px;
+   
+    width: 80%;
+    background-color: grey;
+   
+}
+
+.myBar {
+    background-color: red;
+}
+.level{
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+  .html {
+    width: 90%;
+    height: 30px;
+    background-color: rgb(1, 97, 60);
+}
+.css {
+    width: 80%;
+    height: 30px;
+    background-color: rgb(1, 97, 60);
+}
+.js {
+    width: 70%;
+    height: 30px;
+    background-color: rgb(1, 97, 60);
+}
+.react {
+    width: 60%;
+    height: 30px;
+    background-color: rgb(1, 97, 60);
+}
